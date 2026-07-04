@@ -4,6 +4,9 @@
 
     <p>
         <h3>Topic: {{ topic }}</h3>
+        <a href="{% url 'learning_logs:delete_topic' topic.id %}">
+            <button>Delete Topic</button>
+        </a>
     </p>
 
     <p>

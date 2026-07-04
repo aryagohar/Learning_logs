@@ -1,0 +1,18 @@
+{% extends 'learning_logs/base.html' %}
+
+{% block content %}
+
+    <h2>Delete Topic: {{ topic }}</h2>
+    <p style="color: red;">
+        Warning: This will permanently delete the topic
+        and all its entries. This cannot be undone.
+    </p>
+
+    <form action="{% url 'learning_logs:delete_topic' topic.id %}" method='post'>
+        {% csrf_token %}
+        {{ form.as_div }}
+        <button type="submit">Confirm Delete</button>
+        <a href="{% url 'learning_logs:topic' topic.id %}">Cancel</a>
+    </form>
+
+{% endblock content %}
