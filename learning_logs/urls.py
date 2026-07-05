@@ -19,4 +19,6 @@ urlpatterns = [
     path('edit_entry/<int:entry_id>/', views.edit_entry, name='edit_entry'),
     # Page for topic deletion.
     path('delete_topic/<int:topic_id>/', views.delete_topic, name='delete_topic'),
+    # Page for showing results to user's search.
+    path('search/', views.search, name='search'),
 ]

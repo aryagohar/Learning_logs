@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import authenticate
+from django.db.models import Q
 from django.http import Http404
 from .models import Topic, Entry
 from .forms import TopicForm, EntryForm, DeleteTopicForm
@@ -119,4 +120,15 @@ def delete_topic(request, topic_id):
     context = {'topic': topic, 'form': form}
     return render(request, 'learning_logs/delete_topic.html', context)
 
-
+@login_required
+def search(request):
+    """Search for topics or entries"""
+    query = request.GET.get("q", "")
+    topics = Topic.objects.filter(owner=request.user).filter(text__icontains=query)
+    entries = Entry.objects.filter(topic__in=topics, text__icontains=query)
+    context = {
+        "query": query,
+        "topics": topics,
+        "entries": entries,
+    }
+    return render(request, "learning_logs/search.html", context)
