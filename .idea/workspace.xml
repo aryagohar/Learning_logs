@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb4c451b-4b36-4778-ab7c-f8ba418656e3" name="Changes" comment="learning_log_OK before styling">
-      <change afterPath="$PROJECT_DIR$/learning_logs/templates/learning_logs/delete_topic.html" afterDir="false" />
+    <list default="true" id="fb4c451b-4b36-4778-ab7c-f8ba418656e3" name="Changes" comment="learning_log_OK after adding topic deletion option but before final stylings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/registration/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/registration/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning_logs/templates/learning_logs/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/learning_logs/templates/learning_logs/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning_logs/templates/learning_logs/edit_entry.html" beforeDir="false" afterPath="$PROJECT_DIR$/learning_logs/templates/learning_logs/edit_entry.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning_logs/templates/learning_logs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/learning_logs/templates/learning_logs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning_logs/templates/learning_logs/new_entry.html" beforeDir="false" afterPath="$PROJECT_DIR$/learning_logs/templates/learning_logs/new_entry.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning_logs/templates/learning_logs/new_topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/learning_logs/templates/learning_logs/new_topic.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learning_logs/templates/learning_logs/topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/learning_logs/templates/learning_logs/topic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning_logs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning_logs/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning_logs/templates/learning_logs/topics.html" beforeDir="false" afterPath="$PROJECT_DIR$/learning_logs/templates/learning_logs/topics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +22,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="45" />
+    <option name="cachedIndexableFilesCount" value="47" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -35,61 +41,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000000001636" />
-      <entry key="S2" value="1.0006360818331317" />
-      <entry key="S5" value="1.0526826700551173" />
-      <entry key="S10" value="1.2410290993466704" />
-      <entry key="S30" value="2.4317197414088167" />
-      <entry key="S60" value="4.32116913493817" />
-      <entry key="M2" value="6.718587042425891" />
-      <entry key="M5" value="12.681665942448229" />
-      <entry key="M10" value="21.63291426877969" />
-      <entry key="M15" value="28.424060467532552" />
-      <entry key="M30" value="42.01498454706664" />
-      <entry key="H1" value="59.10656003201644" />
-      <entry key="H2" value="90.98791225542138" />
-      <entry key="H4" value="159.14914246148598" />
-      <entry key="D1" value="536.0183722416475" />
-      <entry key="W1" value="783.1079449103055" />
+      <entry key="MS100" value="1.2754762789691527" />
+      <entry key="MS500" value="1.7727105496479874" />
+      <entry key="S2" value="1.9375710964571096" />
+      <entry key="S5" value="1.9745445209692511" />
+      <entry key="S10" value="1.9871902151912062" />
+      <entry key="S30" value="1.9957518238128253" />
+      <entry key="S60" value="2.011168610461523" />
+      <entry key="M2" value="2.2624868184796028" />
+      <entry key="M5" value="3.6800663786469143" />
+      <entry key="M10" value="5.1710986467032765" />
+      <entry key="M15" value="6.021635978889881" />
+      <entry key="M30" value="8.313442520110511" />
+      <entry key="H1" value="15.544251639166557" />
+      <entry key="H2" value="39.99017522916172" />
+      <entry key="H4" value="103.09459375135982" />
+      <entry key="D1" value="520.6816160380771" />
+      <entry key="W1" value="830.6734653734458" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="3.4234058071252456E-113" />
-      <entry key="S5" value="1.5282290382727612E-45" />
-      <entry key="S10" value="5.505961934201363E-23" />
-      <entry key="S30" value="6.036567929162954E-8" />
-      <entry key="S60" value="3.5506989090641544E-4" />
-      <entry key="M2" value="0.03027043535376039" />
-      <entry key="M5" value="0.520880902252765" />
-      <entry key="M10" value="1.471934282198233" />
-      <entry key="M15" value="2.193949741493002" />
-      <entry key="M30" value="3.7474837679707496" />
-      <entry key="H1" value="5.8851153955863715" />
-      <entry key="H2" value="8.90339822221656" />
-      <entry key="H4" value="13.695091602987388" />
-      <entry key="D1" value="34.07089608660246" />
-      <entry key="W1" value="45.47253659914058" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="7.115584584895339E-195" />
+      <entry key="S60" value="1.2190572269934193E-97" />
+      <entry key="M2" value="5.60884954581543E-49" />
+      <entry key="M5" value="1.0565267174352389E-19" />
+      <entry key="M10" value="6.629174407542313E-10" />
+      <entry key="M15" value="1.2890626479634547E-6" />
+      <entry key="M30" value="0.002872522474607934" />
+      <entry key="H1" value="0.16293591370513746" />
+      <entry key="H2" value="1.4814490411421521" />
+      <entry key="H4" value="5.586379056415289" />
+      <entry key="D1" value="29.34119509991213" />
+      <entry key="W1" value="44.51198174550864" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="5.1681232444001874E-5" />
-      <entry key="MS500" value="0.13888859108188747" />
-      <entry key="S2" value="0.6106408203535156" />
-      <entry key="S5" value="0.8517662003269404" />
-      <entry key="S10" value="1.0930741735397091" />
-      <entry key="S30" value="2.339365732862924" />
-      <entry key="S60" value="4.257852533882888" />
-      <entry key="M2" value="6.706676977069407" />
-      <entry key="M5" value="13.173355915444464" />
-      <entry key="M10" value="23.08105625624664" />
-      <entry key="M15" value="30.597320134234103" />
-      <entry key="M30" value="45.74622198355091" />
-      <entry key="H1" value="64.97926905952392" />
-      <entry key="H2" value="99.88216066729797" />
-      <entry key="H4" value="172.8372025680769" />
-      <entry key="D1" value="570.0861859926398" />
-      <entry key="W1" value="828.5798903102055" />
+      <entry key="MS100" value="0.9567199229900107" />
+      <entry key="MS500" value="1.6157058601525656" />
+      <entry key="S2" value="1.8891942453181494" />
+      <entry key="S5" value="1.954342692235862" />
+      <entry key="S10" value="1.9769424441444285" />
+      <entry key="S30" value="1.992302746696231" />
+      <entry key="S60" value="2.00943139915135" />
+      <entry key="M2" value="2.2615219380003717" />
+      <entry key="M5" value="3.6794332490775337" />
+      <entry key="M10" value="5.170639502927669" />
+      <entry key="M15" value="6.021251381847799" />
+      <entry key="M30" value="8.315873673435336" />
+      <entry key="H1" value="15.706296499768648" />
+      <entry key="H2" value="41.46957763126119" />
+      <entry key="H4" value="108.67772005313793" />
+      <entry key="D1" value="550.0200651513276" />
+      <entry key="W1" value="875.184854454385" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -123,8 +129,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-PY-261.25134.203" />
-        <option value="bundled-python-sdk-245168a56dbd-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.25134.203" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-PY-261.26222.68" />
+        <option value="bundled-python-sdk-50341a9f1f9c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.26222.68" />
       </set>
     </attachedChunks>
   </component>
@@ -144,7 +150,9 @@
       <workItem from="1782972688765" duration="17182000" />
       <workItem from="1783068219441" duration="25626000" />
       <workItem from="1783110524285" duration="3023000" />
-      <workItem from="1783176392214" duration="13365000" />
+      <workItem from="1783176392214" duration="14291000" />
+      <workItem from="1783200385242" duration="601000" />
+      <workItem from="1783245541300" duration="14315000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="learning_log_OK before styling">
       <option name="closed" value="true" />
@@ -153,7 +161,14 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۰۱" />
       <updated>1783196707869</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL‎−۰۰۰۰۲" summary="learning_log_OK after adding topic deletion option but before final stylings">
+      <option name="closed" value="true" />
+      <created>1783199760244</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۲" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۲" />
+      <updated>1783199760244</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +176,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="learning_log_OK before styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="learning_log_OK before styling" />
+    <MESSAGE value="learning_log_OK after adding topic deletion option but before final stylings" />
+    <option name="LAST_COMMIT_MESSAGE" value="learning_log_OK after adding topic deletion option but before final stylings" />
   </component>
 </project>
