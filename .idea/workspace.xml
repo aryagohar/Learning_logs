@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb4c451b-4b36-4778-ab7c-f8ba418656e3" name="Changes" comment="learning_log_Final_with_search_option">
-      <change afterPath="$PROJECT_DIR$/templates/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/500.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/learning_log.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learning_log.iml" afterDir="false" />
+    <list default="true" id="fb4c451b-4b36-4778-ab7c-f8ba418656e3" name="Changes" comment="learning_log_ReadyToDeploy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning_logs/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning_logs/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning_logs/templates/learning_logs/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/learning_logs/templates/learning_logs/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning_logs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning_logs/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,67 +26,79 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "aryagohar"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/aryagohar/learning_logs.git",
+    "accountId": "c714e43b-17e7-4bf6-b74a-1bdba4414f6c"
+  }
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.2431637368530715" />
-      <entry key="MS500" value="1.7536674547791904" />
-      <entry key="S2" value="1.9317404294655067" />
-      <entry key="S5" value="1.9723595326674537" />
-      <entry key="S10" value="2.0163990166232852" />
-      <entry key="S30" value="2.842561159955274" />
-      <entry key="S60" value="4.24297563194995" />
-      <entry key="M2" value="6.01349813823886" />
-      <entry key="M5" value="7.985304132577317" />
-      <entry key="M10" value="9.143163731865878" />
-      <entry key="M15" value="10.25072587714752" />
-      <entry key="M30" value="16.733473944812914" />
-      <entry key="H1" value="40.895670547358144" />
-      <entry key="H2" value="97.88058329360085" />
-      <entry key="H4" value="193.9734165825948" />
-      <entry key="D1" value="704.0766232638148" />
-      <entry key="W1" value="1122.992028747814" />
+      <entry key="MS100" value="1.4776245818849816" />
+      <entry key="MS500" value="2.6487666048087135" />
+      <entry key="S2" value="5.685083692696964" />
+      <entry key="S5" value="7.376102811551652" />
+      <entry key="S10" value="8.12664811324353" />
+      <entry key="S30" value="8.693906287537239" />
+      <entry key="S60" value="8.844990776241094" />
+      <entry key="M2" value="8.922002142182803" />
+      <entry key="M5" value="8.982738848605646" />
+      <entry key="M10" value="9.22606639943807" />
+      <entry key="M15" value="9.751925666260068" />
+      <entry key="M30" value="12.89494767236973" />
+      <entry key="H1" value="27.265362150678715" />
+      <entry key="H2" value="73.28781057523275" />
+      <entry key="H4" value="165.92525231983282" />
+      <entry key="D1" value="689.6339195811901" />
+      <entry key="W1" value="1128.8727097610138" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
-      <entry key="S5" value="5.023297406106332E-197" />
-      <entry key="S10" value="7.087522420498102E-99" />
-      <entry key="S30" value="1.9208707729621943E-33" />
-      <entry key="S60" value="4.38277421556068E-17" />
-      <entry key="M2" value="6.621798205403069E-9" />
-      <entry key="M5" value="5.539301914900999E-4" />
-      <entry key="M10" value="0.027774438294987627" />
-      <entry key="M15" value="0.1130673167479441" />
-      <entry key="M30" value="0.5469138605087812" />
-      <entry key="H1" value="1.406954565102569" />
-      <entry key="H2" value="2.644270088269887" />
-      <entry key="H4" value="5.165622819036051" />
-      <entry key="D1" value="28.922720849540752" />
-      <entry key="W1" value="49.02757263658232" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="3.31084383283686E-242" />
+      <entry key="S30" value="3.211043818635113E-81" />
+      <entry key="S60" value="5.666607599650402E-41" />
+      <entry key="M2" value="7.52944495510687E-21" />
+      <entry key="M5" value="9.242082585876166E-9" />
+      <entry key="M10" value="1.1344952680328504E-4" />
+      <entry key="M15" value="0.00288918502572422" />
+      <entry key="M30" value="0.08742548788843015" />
+      <entry key="H1" value="0.5625221659558282" />
+      <entry key="H2" value="1.6719973932591707" />
+      <entry key="H4" value="4.1075946897010125" />
+      <entry key="D1" value="27.838764765314842" />
+      <entry key="W1" value="48.76076473948595" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.0658953228913641" />
-      <entry key="MS500" value="1.6999779156689956" />
-      <entry key="S2" value="1.916747244604847" />
-      <entry key="S5" value="1.966199005480454" />
-      <entry key="S10" value="2.011266257447736" />
-      <entry key="S30" value="2.8176977375752545" />
-      <entry key="S60" value="4.212414653854524" />
-      <entry key="M2" value="5.988710608375887" />
-      <entry key="M5" value="7.972303379750963" />
-      <entry key="M10" value="9.16201908828402" />
-      <entry key="M15" value="10.353801051654674" />
-      <entry key="M30" value="17.263890212382663" />
-      <entry key="H1" value="42.283591917847716" />
-      <entry key="H2" value="100.50890025375188" />
-      <entry key="H4" value="199.12738979178602" />
-      <entry key="D1" value="732.994681953252" />
-      <entry key="W1" value="1172.0186525792583" />
+      <entry key="MS100" value="1.4074076325599476" />
+      <entry key="MS500" value="2.6082134384883036" />
+      <entry key="S2" value="5.644254039906617" />
+      <entry key="S5" value="7.352997840414014" />
+      <entry key="S10" value="8.113630360560148" />
+      <entry key="S30" value="8.689202853275596" />
+      <entry key="S60" value="8.842590908666674" />
+      <entry key="M2" value="8.920789964754245" />
+      <entry key="M5" value="8.982250507305407" />
+      <entry key="M10" value="9.225896882326495" />
+      <entry key="M15" value="9.754393006851414" />
+      <entry key="M30" value="12.97965015506903" />
+      <entry key="H1" value="27.82023042545209" />
+      <entry key="H2" value="74.9496981687825" />
+      <entry key="H4" value="170.02357211892163" />
+      <entry key="D1" value="717.4681949999269" />
+      <entry key="W1" value="1177.6325305849268" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -150,7 +156,7 @@
       <workItem from="1783176392214" duration="14291000" />
       <workItem from="1783200385242" duration="601000" />
       <workItem from="1783245541300" duration="23394000" />
-      <workItem from="1783327713146" duration="19440000" />
+      <workItem from="1783327713146" duration="22231000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="learning_log_OK before styling">
       <option name="closed" value="true" />
@@ -180,7 +186,14 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۰۴" />
       <updated>1783285376263</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL‎−۰۰۰۰۵" summary="learning_log_ReadyToDeploy">
+      <option name="closed" value="true" />
+      <created>1783350717736</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۵" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۵" />
+      <updated>1783350717736</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +204,7 @@
     <MESSAGE value="learning_log_OK after adding topic deletion option but before final stylings" />
     <MESSAGE value="learning_log_Final" />
     <MESSAGE value="learning_log_Final_with_search_option" />
-    <option name="LAST_COMMIT_MESSAGE" value="learning_log_Final_with_search_option" />
+    <MESSAGE value="learning_log_ReadyToDeploy" />
+    <option name="LAST_COMMIT_MESSAGE" value="learning_log_ReadyToDeploy" />
   </component>
 </project>
