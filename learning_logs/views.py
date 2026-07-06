@@ -18,13 +18,15 @@ def topics(request):
     context = {'topics': topics}
     return render(request, 'learning_logs/topics.html', context)
 
-@login_required
 def topic(request, topic_id):
     """Show a single topic and all its entries."""
     topic = Topic.objects.get(id=topic_id)
-    # Make sure the topic belongs to the current user.
-    if topic.owner != request.user:
-        raise Http404
+    # If the topic is public is shown to everyone, otherwise only to its creator.
+    if not topic.is_public:
+        if not request.user.is_authenticated:
+            return redirect('accounts:login')
+        if topic.owner != request.user:
+            raise Http404
     entries = topic.entry_set.order_by('-date_added')
     context = {'topic': topic, 'entries': entries}
     return render(request, 'learning_logs/topic.html', context)
@@ -120,14 +122,31 @@ def delete_topic(request, topic_id):
     context = {'topic': topic, 'form': form}
     return render(request, 'learning_logs/delete_topic.html', context)
 
-@login_required
+
 def search(request):
     """Search for topics or entries"""
     query = request.GET.get("q", "")
-    topics = Topic.objects.filter(owner=request.user).filter(text__icontains=query)
-    entries = Entry.objects.filter(topic__in=topics, text__icontains=query)
+    if request.user.is_authenticated:
+        topics = Topic.objects.filter(
+      Q(is_public=True) | Q(owner=request.user),
+            text__icontains=query
+        )
+    else:
+        topics = Topic.objects.filter(
+            is_public=True,
+            text__icontains=query
+        )
+    if request.user.is_authenticated:
+        entries = Entry.objects.filter(
+            Q(topic__is_public=True) | Q(topic__owner=request.user),
+            text__icontains=query
+        )
+    else:
+        entries = Entry.objects.filter(
+            topic__is_public=True,
+            text__icontains=query
+        )
     context = {
-        "query": query,
         "topics": topics,
         "entries": entries,
     }
