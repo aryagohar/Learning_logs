@@ -46,3 +46,9 @@ About
 This project was originally developed while studying Django and has been gradually extended with additional functionality as part of my journey toward becoming a professional Python and Django developer.
 License
 This project is intended for educational and portfolio purposes.
+👤 Author
+(GitHub: aryagohar)
+I am continuously improving my skills in Python, Django, automation, and AI integration while building practical projects for my professional portfolio.
+⭐ Support
+If you found this project useful or interesting, consider giving it a ⭐ on GitHub.
+
