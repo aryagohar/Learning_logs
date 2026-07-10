@@ -1,5 +1,13 @@
 # Learning Logs
 
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Learning](https://img.shields.io/badge/Purpose-Learning-orange)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)
+![GitHub stars](https://img.shields.io/github/stars/aryagohar/Learning_logs?style=social)
+![Repo Size](https://img.shields.io/github/repo-size/aryagohar/Learning_logs)
+
+
 A web application built with **Django** that allows users to organize
 and track their learning journey. Users can create topics, add entries,
 manage their personal learning logs, and optionally make topics public
